@@ -1,6 +1,27 @@
-name: Hank Quinlan, Horrible Cop
+title: Your awesome title
+author: GitHub User
+email: your-email@domain.com
+description: > # this means to ignore newlines until "show_exerpts:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+
+
+url: "https://kondratyev-nv.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+lang: en
+timezone: UTC
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - jekyll-theme-littlefox.gemspec
+  - Screenshot_2019-04-12.png
+
+# Build settings
 markdown: kramdown
+excerpt_separator: "<!-- more -->"
 
-theme: jekyll-theme-minimal
-
-permalink: /blog/:year/:month/:day/:title
+# You can disable the header with nav bar by uncommenting this
+# littlefox:
+#  disable_header: true
