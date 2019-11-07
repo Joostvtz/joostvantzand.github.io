@@ -6,7 +6,7 @@
 
 ## Usage with GitHub Pages
 
-    remote_theme: kondratyev-nv/jekyll-theme-littlefox
+    remote_theme: joostvtz/joostvtz.github.io
 
 For more information see [Use any theme with GitHub Pages](https://github.blog/2017-11-29-use-any-theme-with-github-pages/) and [GitHub Pages Documentation](https://help.github.com/en/articles/adding-a-jekyll-theme-to-your-github-pages-site).
 
@@ -16,5 +16,5 @@ Theme specific options are set from `littlefox` section in `_config.yml`.
 
 ```yml
 littlefox:
-  disable_header: true # Will remove the header and navigation bar 
+  disable_header: true # Will remove the header and navigation bar
 ```

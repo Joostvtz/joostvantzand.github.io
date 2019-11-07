@@ -1,11 +1,11 @@
 Gem::Specification.new do |spec|
-    spec.name          = "jekyll-theme-littlefox"
+    spec.name          = "joostvtz.github.io"
     spec.version       = "0.0.1"
     spec.authors       = ["Joost van 't Zand"]
     spec.email         = ["joostvantzand@gmail.com"]
 
     spec.summary       = "A simple theme for Jekyll based on whiteglass and minima"
-    spec.homepage      = "https://github.com/kondratyev-nv/jekyll-theme-littlefox"
+    spec.homepage      = "https://github.com/Joostvtz/joostvtz.github.io"
     spec.license       = "MIT"
 
     spec.metadata["plugin_type"] = "theme"
