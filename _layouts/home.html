@@ -9,7 +9,7 @@ layout: default
   {% capture site_lang %}{{ site.lang | default: "en" }}{% endcapture %}
 
   {%- if site.posts.size > 0 -%}
-    <h1 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h1>
+    <h1 class="post-list-heading">{{ page.list_title | default: "Blog posts" }}</h1>
 
     <ul class="post-list">
       {% for post in site.posts %}
