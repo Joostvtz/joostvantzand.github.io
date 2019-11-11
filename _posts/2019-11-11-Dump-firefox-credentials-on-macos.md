@@ -4,22 +4,13 @@ layout: post
 Dumping the credentials stored in the Firefox browser cache on MacOS is possible using the following commands:
 
 {% highlight ruby %}
-python firefox_decrypt.py
-Select the Firefox profile you wish to decrypt
-1 -> Profiles/1v42l6gf.dev-edition-default
-2 -> Profiles/cunynfjm.default
-1
-
-Master Password for profile /Users/itsec/Library/Application Support/Firefox/Profiles/1v42l6gf.dev-edition-default:
-2019-11-11 14:13:15,806 - WARNING - Attempting decryption with no Master Password
-2019-11-11 14:13:15,807 - ERROR - Couldn't find credentials file (logins.json or signons.sqlite).
-scanlaptop40:firefox_decrypt itsec$ python firefox_decrypt.py
+firefox_decrypt myuser$ python firefox_decrypt.py
 Select the Firefox profile you wish to decrypt
 1 -> Profiles/1v42l6gf.dev-edition-default
 2 -> Profiles/cunynfjm.default
 2
 
-Master Password for profile /Users/itsec/Library/Application Support/Firefox/Profiles/cunynfjm.default:
+Master Password for profile /Users/myuser/Library/Application Support/Firefox/Profiles/cunynfjm.default:
 2019-11-11 14:13:18,813 - WARNING - Attempting decryption with no Master Password
 
 Website:   https://www.hackthebox.eu
