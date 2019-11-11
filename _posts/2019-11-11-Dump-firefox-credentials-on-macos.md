@@ -4,7 +4,10 @@ layout: post
 Dumping the credentials stored in the Firefox browser cache on MacOS is possible using the following commands:
 
 {% highlight ruby %}
-firefox_decrypt myuser$ python firefox_decrypt.py
+git clone https://github.com/unode/firefox_decrypt
+cd firefox_decrypt
+python firefox_decrypt.py
+
 Select the Firefox profile you wish to decrypt
 1 -> Profiles/1v42l6gf.dev-edition-default
 2 -> Profiles/cunynfjm.default
