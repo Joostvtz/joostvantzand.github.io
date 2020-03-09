@@ -1,6 +1,5 @@
 ---
 layout: post
-youtubeId: 4J-6mUb4ORQ
 ---
 To use Merlin as a Command & Control server, which is written in golang, we should take the following steps:
 
@@ -42,4 +41,4 @@ cmd whoami
 
 {% endhighlight %}
 
-{% include youtubePlayer.html id=page.youtubeId %}
+{% include youtubePlayer.html id="4J-6mUb4ORQ" %}
